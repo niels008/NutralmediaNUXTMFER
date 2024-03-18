@@ -7,16 +7,15 @@
 }
 
 @font-face {
-  font-family: "Bitter Normal Italic";
+  font-family: "Bitter Normal";
   font-style: normal;
-  src: url("../fonts/bitter/Bitter-Italic-VariableFont_wght.ttf")
-    format("truetype");
+  src: url("../fonts/opensans/OpenSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Bitter";
   font-style: normal;
-  src: url("../fonts/bitter/Bitter-LightItalic.ttf") format("truetype");
+  src: url("../fonts/opensans/OpenSans-Light") format("truetype");
 }
 
 $xl: 1920px;
@@ -35,8 +34,8 @@ $menu-border: 1px;
 $menu-speed: 0.75s;
 // hero vars
 
-$font-bitter: "Bitter", serif;
-$font-bitter-thicc: "Bitter Normal Italic", serif;
+$font-bitter: "Bitter", sans-serif;
+$font-bitter-thicc: "Bitter Normal", sans-serif;
 $font-os: "Open Sans", sans-serif;
 $section-padding: 7.5em;
 
