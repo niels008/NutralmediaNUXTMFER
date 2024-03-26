@@ -57,12 +57,11 @@
   overflow-y: scroll;
   transition: 1s;
   section.services,
-  section.projects,
   section.hero,
   section.contact {
-    margin: 0.5rem 0.5rem 0 4rem;
+    margin: 0.5rem 0.5rem 0.5rem 4rem;
     @media (max-width: $sm) {
-      margin: 0.5rem 0.5rem 0 3rem;
+      margin: 0.5rem 0.5rem 0.5rem 3rem;
     }
     scroll-behavior: smooth;
     transition: 1s;
@@ -79,6 +78,27 @@
       letter-spacing: 0.2rem;
       max-height: 25px;
     }
+  }
+}
+section.projects {
+  margin: 0.5rem 0.5rem 0 4rem;
+  @media (max-width: $sm) {
+    margin: 0.5rem 0.5rem 0 3rem;
+  }
+  scroll-behavior: smooth;
+  transition: 1s;
+  &:nth-last-child(1) {
+    margin-bottom: 0.5rem;
+  }
+  aside {
+    align-items: flex-start;
+  }
+  .logo {
+    color: $secundary-color;
+    font-family: $font-bitter;
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    max-height: 25px;
   }
 }
 
@@ -227,7 +247,7 @@ section.products {
       border: solid 2px $secundary-color;
       img {
         filter: grayscale(60%);
-        opacity: 0.2;
+        opacity: 0.1;
       }
     }
   }
@@ -240,7 +260,7 @@ section.products {
 section.contact {
   box-sizing: border-box;
   align-items: center;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5rem;
   @media (max-width: $sm) {
     height: fit-content;
   }
