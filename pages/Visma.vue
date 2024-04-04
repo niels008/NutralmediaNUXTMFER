@@ -213,6 +213,20 @@ onMounted(() => {
       >
         <Title :level="1">Atomic design</Title>
       </div>
+      <div class="big-img-wrapper">
+        <div
+          data-duration=".5s"
+          data-delay=".3s"
+          class="content_image vijftigprocent anim"
+        >
+          <figure class="figure_9-16">
+            <img
+              src="/portfolio/visma/atomicelements.png"
+              alt="Wayfinder designsystem"
+            />
+          </figure>
+        </div>
+      </div>
       <div class="o-wrapper" style="align-items: start">
         <div class="content_text">
           <contentWrap>
@@ -267,20 +281,7 @@ onMounted(() => {
           </contentWrap>
         </div>
       </div>
-      <div class="big-img-wrapper">
-        <div
-          data-duration=".5s"
-          data-delay=".3s"
-          class="content_image vijftigprocent anim"
-        >
-          <figure class="figure_9-16">
-            <img
-              src="/portfolio/visma/atomicelements.png"
-              alt="Wayfinder designsystem"
-            />
-          </figure>
-        </div>
-      </div>
+
       <div
         data-duration=".5s"
         data-delay=".3s"
