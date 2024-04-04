@@ -44,22 +44,26 @@ onMounted(() => {
           <contentWrap>
             <Title :level="3">Wayfinder</Title>
             <p>
-              During my time at Visionplanner I have worked on the
-              implementation and building of the designsystem called Wayfinder.
-              Visionplanner is in the accountancy space and has products that
-              help the user make their yearly mandetory documents for their
-              clients.
+              During my tenure at Visionplanner, I spearheaded the
+              implementation and development of Wayfinder, our comprehensive
+              design system. Operating within the accountancy sector,
+              Visionplanner specializes in crafting essential yearly
+              documentation for clients.
             </p>
             <p>
-              The goal of the application is to be efficient and respected by
-              the accountancy world. The problem was that the user did not
-              understand why we had multiple styles within every single product.
+              The primary objective of the Wayfinder application is to
+              streamline processes and uphold a reputable stance within the
+              accountancy industry. Initially, a key challenge revolved around
+              users grappling with the multitude of styles present across our
+              product range.
             </p>
             <p>
-              To improve trust in the application we defined one designsystem to
-              replace them all. Wayfinder acts as a singular designsystem for
-              the whole product portfolio of Visionplanner and we moved the
-              product strategy to a platform as a service.
+              To foster greater user confidence and cohesion, we embarked on a
+              mission to consolidate disparate styles into a unified design
+              system. Wayfinder emerged as the singular solution, harmonizing
+              the entire product portfolio of Visionplanner. This strategic move
+              also involved transitioning our product strategy to a
+              platform-as-a-service model.
             </p>
           </contentWrap>
         </div>
@@ -97,16 +101,20 @@ onMounted(() => {
           class="sticky content_text anim"
         >
           <contentWrap>
-            <Title :level="3">The colors & brand basics</Title>
+            <Title :level="3"
+              >Establishing Brand Consistency: Colors and Basics</Title
+            >
             <p>
-              First we started by defining the style guide together with
-              marketing to see if the brand identity and the style in the
-              product was matching. This to provide a singular style throughout
-              the applications, websites and outings towards customers.
+              Our journey began with a collaborative effort between our team and
+              the marketing department to establish a cohesive style guide. This
+              involved aligning the brand identity with the product's visual
+              elements to ensure consistency across applications, websites, and
+              customer interactions.
             </p>
             <p>
-              And in the end gain their trust and show the user group we take
-              their point of view into account.
+              Ultimately, our aim was twofold: to instill trust among our users
+              and to demonstrate our commitment to incorporating their
+              perspectives into our design decisions.
             </p>
           </contentWrap>
         </div>
@@ -115,9 +123,10 @@ onMounted(() => {
       <div class="o-wrapper">
         <div class="content_text sticky">
           <contentWrap>
-            <Title :level="3">Grids & Spacing</Title>
+            <Title :level="3">Optimizing Layouts: Grids & Spacing</Title>
             <p>
-              To make the spacing more consistant we made sure we used a system.
+              Achieving consistent spacing was a priority, and to accomplish
+              this, we implemented a systematic approach.
             </p>
           </contentWrap>
         </div>
@@ -151,15 +160,19 @@ onMounted(() => {
           class="sticky content_text anim"
         >
           <contentWrap>
-            <Title :level="3">Typography and Figma Styles</Title>
+            <Title :level="3"
+              >Crafting Consistent Typography with Figma Styles</Title
+            >
             <p>
-              For each font and each situation the font was displayed we defined
-              a style and semantic variable to help the designers pick the right
-              font and style based on our consistant design system.
+              We meticulously defined styles and semantic variables for each
+              font and context in which it was used. This provided designers
+              with clear guidelines for selecting the appropriate font and style
+              from our cohesive design system.
             </p>
             <p>
-              The same fonts would also be used by the Marketing team to keep
-              the graphic design parts and product design parts more aligned.
+              Furthermore, by utilizing the same fonts across both marketing and
+              product design endeavors, we ensured alignment between graphic
+              design elements and product interfaces.
             </p>
           </contentWrap>
         </div>
@@ -167,18 +180,19 @@ onMounted(() => {
       <div class="o-wrapper">
         <div class="content_text sticky">
           <contentWrap>
-            <Title :level="3">Icons</Title>
+            <Title :level="3">Streamlining Iconography</Title>
             <p>
-              The moment we as product designers got to the company the product
-              owners would still be making all the icons. To improve their way
-              of working and teach them the right way we provided them with a
-              example of how icons should be made.
+              Upon joining the company as product designers, we observed that
+              product owners were primarily responsible for creating icons.
+              Recognizing an opportunity to enhance their workflow and promote
+              best practices, we provided them with a standardized example of
+              icon creation.
             </p>
             <p>
-              In a later stage of the the designsystem we decided to start using
-              the material desing icons because most of the icons we made where
-              simular and the time spend to make a good icon was not of allot of
-              value for the customer.
+              As our design system matured, we opted to integrate Material
+              Design icons into our repertoire. This decision stemmed from the
+              realization that many of the icons we required were similar in
+              nature, and in
             </p>
           </contentWrap>
         </div>
