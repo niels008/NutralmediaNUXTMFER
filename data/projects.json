@@ -54,5 +54,13 @@
       "url": "/portfolio/icons_products/vsm.jpg",
       "alt": "Agrovision"
     }
+  },
+  "Visma": {
+    "title": "VISMA",
+    "description": "User Experience design & Designsystems",
+    "image": {
+      "url": "/portfolio/icons_products/vsm.jpg",
+      "alt": "Visma"
+    }
   }
 }

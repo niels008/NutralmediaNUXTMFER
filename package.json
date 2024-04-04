@@ -6,6 +6,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
+  "engines": {
+    "node": ">=19.0.0"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "nuxt": "^3.0.0",

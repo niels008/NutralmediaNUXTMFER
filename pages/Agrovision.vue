@@ -82,7 +82,11 @@ onMounted(() => {
           </figure>
         </div>
 
-        <div data-duration=".5s" data-delay=".3s" class="content_text anim">
+        <div
+          data-duration=".5s"
+          data-delay=".3s"
+          class="sticky content_text anim"
+        >
           <contentWrap>
             <Title :level="3">
               Permissions & <br />
@@ -221,7 +225,11 @@ onMounted(() => {
         <Title :level="1">Dashboards</Title>
       </div>
       <div class="o-wrapper">
-        <div data-duration=".5s" data-delay=".3s" class="content_text anim">
+        <div
+          data-duration=".5s"
+          data-delay=".3s"
+          class="sticky content_text anim"
+        >
           <contentWrap>
             <Title :level="3">Reporting tool</Title>
             <p>
