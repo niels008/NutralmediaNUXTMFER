@@ -281,6 +281,25 @@ onMounted(() => {
           </figure>
         </div>
       </div>
+      <div
+        data-duration=".5s"
+        data-delay=".3s"
+        class="detail_title spacer anim"
+      >
+        <Title :level="1">Wayfinder designsystem</Title>
+      </div>
+      <div class="o-wrapper">
+        <iframe
+          style="
+            height: 71vh;
+            display: flex;
+            flex: 1;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+          "
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Foeapwga43mHRqouUxrEYOH%2FDS-dont-remove%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DTx3TC8OkPMV0pNw0-1"
+          allowfullscreen
+        ></iframe>
+      </div>
     </SectionDetail>
   </div>
 </template>
