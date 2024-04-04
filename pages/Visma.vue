@@ -86,7 +86,7 @@ onMounted(() => {
           <figure class="figure_39-9">
             <img
               class="e-shadow"
-              src="/portfolio/visma/Styleguide - Colors & Basics.png"
+              src="/portfolio/visma/Styleguide-ColorsBasics.png"
               alt="Wayfinder designsystem"
             />
           </figure>
@@ -125,7 +125,7 @@ onMounted(() => {
           <figure class="figure_9dot3-9">
             <img
               class="e-shadow"
-              src="/portfolio/visma/Styleguide - Grids & Spacing.png"
+              src="/portfolio/visma/Styleguide-GridsSpacing.png"
               alt="groepen maken 3"
             />
           </figure>
@@ -140,7 +140,7 @@ onMounted(() => {
           <figure class="figure_26-9">
             <img
               class="e-shadow"
-              src="/portfolio/visma/Styleguide - Typography.png"
+              src="/portfolio/visma/Styleguide-Typography.png"
               alt="Wayfinder designsystem"
             />
           </figure>
@@ -186,7 +186,7 @@ onMounted(() => {
           <figure class="figure_73-9">
             <img
               class="e-shadow"
-              src="/portfolio/visma/Styleguide - Icons.png"
+              src="/portfolio/visma/Styleguide-Icons.png"
               alt="groepen maken 3"
             />
           </figure>
