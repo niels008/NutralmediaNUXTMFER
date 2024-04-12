@@ -287,7 +287,14 @@ onMounted(() => {
         data-delay=".3s"
         class="detail_title spacer anim"
       >
-        <Title :level="1">Wayfinder designsystem</Title>
+        <Title :level="1">Take a Peek Inside Wayfinder</Title>
+        <contentWrap>
+          <p>
+            Dive in and explore! Wayfinder's user-friendly design covers
+            everything from colors to buttons, shaping your digital experience
+            to make life easier.
+          </p>
+        </contentWrap>
       </div>
       <div class="o-wrapper">
         <iframe
