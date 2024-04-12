@@ -28,7 +28,6 @@ onMounted(() => {
         <ProjectButton project="SMCLaren" />
         <ProjectButton project="GoodlookingCooking" />
         <ProjectButton project="SNSBank" />
-        <ProjectButton project="DailyUI" />
       </section>
     </section>
     <Footer />

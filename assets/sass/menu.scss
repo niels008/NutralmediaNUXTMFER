@@ -82,7 +82,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: all 0.4s ease;
+      transition: all 0.3s ease;
 
       &:before {
         content: "";
@@ -123,10 +123,11 @@
       visibility: visible;
       div {
         transform: scale(1);
+        transform-origin: center;
         transition-duration: $menu-speed;
         div {
           opacity: 1;
-          transition: opacity 0.4s ease 0.4s;
+          transition: opacity 0.3s ease 0.3s;
           max-height: none;
           max-width: none;
         }
@@ -147,7 +148,7 @@
     justify-content: center;
     div {
       background: $overlay-color;
-      border-radius: 50%;
+      // border-radius: 50%;
       width: 200vw;
       height: 150vh;
       display: flex;
@@ -155,13 +156,13 @@
       align-items: center;
       justify-content: center;
       transform: scale(0);
-      transition: all 0.4s ease;
+      transition: all 0.3s ease;
       div {
         text-align: center;
         max-width: 90vw;
         max-height: 100vh;
         opacity: 0;
-        transition: opacity 0.4s ease;
+        transition: opacity 0.3s ease;
         ul {
           display: flex;
           align-items: center;
