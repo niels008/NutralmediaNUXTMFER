@@ -11,7 +11,7 @@ import Logo from "./Logo.vue";
     </header>
     <aside>
       <h1 data-duration="1s" data-delay=".3s" class="title anim">
-        Hello, I'm Niels <br />A Digital designer.
+        Hello, I'm Niels <br />A Digital Product designer.
       </h1>
       <div class="flex-grid-cont">
         <div class="item-1">
@@ -27,13 +27,13 @@ import Logo from "./Logo.vue";
           </a>
         </div>
         <div class="item-2">
-          <a href="#services">
+          <router-link to="/myprocess">
             <div data-duration=".5s" data-delay=".15s" class="anim">
-              <h2>Services</h2>
-              <p>Get good help. Direct and clear service.</p>
+              <h2>My process</h2>
+              <p>Get to know my process so you know how I work.</p>
             </div>
             <div class="arrow"></div>
-          </a>
+          </router-link>
         </div>
       </div>
     </aside>

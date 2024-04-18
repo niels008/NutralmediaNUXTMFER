@@ -5,7 +5,7 @@ import BacktoTopButton from "@/components/global/BacktoTopButton.vue";
 
 <template>
   <div class="main">
-    <section class="detail gap-36">
+    <section class="detail">
       <slot />
     </section>
     <Footer />

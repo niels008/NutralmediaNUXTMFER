@@ -40,6 +40,18 @@ onMounted(() => {
         ></iframe>
       </div>
       <div class="o-wrapper">
+        <div
+          data-duration=".5s"
+          data-delay=".3s"
+          class="content_image-small vijftigprocent anim"
+        >
+          <figure class="figure_12-14">
+            <img
+              src="/portfolio/visma/visionplanner.png"
+              alt="Visionplanner, Wayfinder and Compilation expert"
+            />
+          </figure>
+        </div>
         <div data-duration=".5s" data-delay=".15s" class="content_text anim">
           <contentWrap>
             <Title :level="3">Wayfinder</Title>
@@ -67,34 +79,8 @@ onMounted(() => {
             </p>
           </contentWrap>
         </div>
-        <div
-          data-duration=".5s"
-          data-delay=".3s"
-          class="content_image-small vijftigprocent anim"
-        >
-          <figure class="figure_12-14">
-            <img
-              class="e-shadow"
-              src="/portfolio/visma/Cover.png"
-              alt="Wayfinder designsystem"
-            />
-          </figure>
-        </div>
       </div>
       <div class="o-wrapper">
-        <div
-          data-duration=".5s"
-          data-delay=".3s"
-          class="content_image-small vijftigprocent anim"
-        >
-          <figure class="figure_39-9">
-            <img
-              class="e-shadow"
-              src="/portfolio/visma/Styleguide-ColorsBasics.png"
-              alt="Wayfinder designsystem"
-            />
-          </figure>
-        </div>
         <div
           data-duration=".5s"
           data-delay=".15s"
@@ -118,18 +104,21 @@ onMounted(() => {
             </p>
           </contentWrap>
         </div>
-      </div>
-
-      <div class="o-wrapper">
-        <div class="content_text sticky">
-          <contentWrap>
-            <Title :level="3">Optimizing Layouts: Grids & Spacing</Title>
-            <p>
-              Achieving consistent spacing was a priority, and to accomplish
-              this, we implemented a systematic approach.
-            </p>
-          </contentWrap>
+        <div
+          data-duration=".5s"
+          data-delay=".3s"
+          class="content_image-small vijftigprocent anim"
+        >
+          <figure class="figure_39-9">
+            <img
+              class="e-shadow"
+              src="/portfolio/visma/Styleguide-ColorsBasics.png"
+              alt="Wayfinder designsystem"
+            />
+          </figure>
         </div>
+      </div>
+      <div class="o-wrapper">
         <div class="content_image-small">
           <figure class="figure_9dot3-9">
             <img
@@ -139,21 +128,17 @@ onMounted(() => {
             />
           </figure>
         </div>
+        <div class="content_text sticky">
+          <contentWrap>
+            <Title :level="3">Optimizing Layouts: Grids & Spacing</Title>
+            <p>
+              Achieving consistent spacing was a priority, and to accomplish
+              this, we implemented a systematic approach.
+            </p>
+          </contentWrap>
+        </div>
       </div>
       <div class="o-wrapper">
-        <div
-          data-duration=".5s"
-          data-delay=".3s"
-          class="content_image-small vijftigprocent anim"
-        >
-          <figure class="figure_26-9">
-            <img
-              class="e-shadow"
-              src="/portfolio/visma/Styleguide-Typography.png"
-              alt="Wayfinder designsystem"
-            />
-          </figure>
-        </div>
         <div
           data-duration=".5s"
           data-delay=".15s"
@@ -176,8 +161,30 @@ onMounted(() => {
             </p>
           </contentWrap>
         </div>
+        <div
+          data-duration=".5s"
+          data-delay=".3s"
+          class="content_image-small vijftigprocent anim"
+        >
+          <figure class="figure_26-9">
+            <img
+              class="e-shadow"
+              src="/portfolio/visma/Styleguide-Typography.png"
+              alt="Wayfinder designsystem"
+            />
+          </figure>
+        </div>
       </div>
       <div class="o-wrapper">
+        <div class="content_image-small">
+          <figure class="figure_73-9">
+            <img
+              class="e-shadow"
+              src="/portfolio/visma/Styleguide-Icons.png"
+              alt="groepen maken 3"
+            />
+          </figure>
+        </div>
         <div class="content_text sticky">
           <contentWrap>
             <Title :level="3">Streamlining Iconography</Title>
@@ -195,15 +202,6 @@ onMounted(() => {
               nature, and in
             </p>
           </contentWrap>
-        </div>
-        <div class="content_image-small">
-          <figure class="figure_73-9">
-            <img
-              class="e-shadow"
-              src="/portfolio/visma/Styleguide-Icons.png"
-              alt="groepen maken 3"
-            />
-          </figure>
         </div>
       </div>
       <div
@@ -307,6 +305,24 @@ onMounted(() => {
           src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Foeapwga43mHRqouUxrEYOH%2FDS-dont-remove%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DTx3TC8OkPMV0pNw0-1"
           allowfullscreen
         ></iframe>
+      </div>
+      <div class="o-wrapper" style="align-items: start">
+        <div class="content_text">
+          <contentWrap>
+            <p style="font-weight: 700">Details</p>
+            <p>
+              Within the details, we have a list of all the components that are
+              available in the design system.
+            </p>
+            <p>
+              The components are organized into atoms, molecules, organisms, and
+              templates, following the atomic design methodology. Typically,
+              each component category would be detailed on its own page.
+              However, for illustrative purposes, we've consolidated them into a
+              single file here.
+            </p>
+          </contentWrap>
+        </div>
       </div>
     </SectionDetail>
   </div>

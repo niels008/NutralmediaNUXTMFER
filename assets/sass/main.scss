@@ -711,6 +711,24 @@ section.detail {
     position: unset;
   }
 }
+.o-wrapper-v2 {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  justify-content: space-around;
+  max-width: 1280px;
+  @media (max-width: $md) {
+    flex-direction: column;
+    display: flex;
+  }
+  .content_image {
+    @media (max-width: $sm) {
+      width: 100%;
+      position: unset;
+    }
+  }
+}
 .o-wrapper {
   display: flex;
   align-items: center;
@@ -791,7 +809,7 @@ section.detail {
   gap: 1rem;
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  max-width: 80%;
   @media (max-width: $md) {
     max-width: 100%;
   }

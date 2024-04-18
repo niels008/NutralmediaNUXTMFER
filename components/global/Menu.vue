@@ -27,6 +27,13 @@ const menuItemClickHandler = (event) => {
             <li>
               <a @click="menuItemClickHandler($event)" href="#hero">Home</a>
             </li>
+
+            <li>
+              <router-link to="/myprocess" @click="menuItemClickHandler"
+                >My process</router-link
+              >
+            </li>
+
             <li>
               <a @click="menuItemClickHandler($event)" href="#cases">Cases</a>
             </li>
