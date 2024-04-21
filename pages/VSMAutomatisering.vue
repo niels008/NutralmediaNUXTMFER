@@ -18,7 +18,7 @@ onMounted(() => {
       <BackButton />
       <Logo variant="small" />
     </div>
-    <SectionDetail>
+    <SectionDetail :extraSpacing="true">
       <div
         id="hero"
         data-duration=".5s"

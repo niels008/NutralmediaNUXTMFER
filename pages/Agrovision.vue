@@ -19,7 +19,7 @@ onMounted(() => {
 <template>
   <Project>
     <detailMenu />
-    <SectionDetail>
+    <SectionDetail :extraSpacing="true">
       <div
         id="hero"
         data-duration=".5s"
