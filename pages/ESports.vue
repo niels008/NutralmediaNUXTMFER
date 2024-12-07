@@ -51,7 +51,7 @@ onMounted(() => {
         >
           <figure class="figure_12-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/esports/dragonsunfold_tshirt_huisstijl.png"
               alt="dragonsunfold t-shirt huisstijl"
             />
@@ -66,7 +66,7 @@ onMounted(() => {
         <div data-delay=".1s" data-duration=".5s" class="content_image anim">
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/esports/panetela_offline.png"
               alt="panetelaa online screen"
             />
@@ -102,7 +102,7 @@ onMounted(() => {
         >
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/esports/panetela_livestream_webcamandchat.png"
               alt="dragonsunfold t-shirt huisstijl"
             />
@@ -113,7 +113,7 @@ onMounted(() => {
         <div data-delay=".1s" data-duration=".5s" class="content_image anim">
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/esports/panetela_brb.png"
               alt="dragonsunfold t-shirt huisstijl"
             />

@@ -22,6 +22,7 @@ onMounted(() => {
       <h1 class="title title-mg black">Cases</h1>
       <section id="cases" class="products">
         <ProjectButton project="Visma" />
+        <!-- <ProjectButton project="VismaRaet" /> -->
         <ProjectButton project="Agrovision" />
         <ProjectButton project="VSMAutomatisering" />
         <ProjectButton project="ESports" />

@@ -61,7 +61,7 @@ onMounted(() => {
         >
           <figure class="figure_12-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/agrovision/MAV-MyApps.png"
               alt="My agrovision apps"
             />
@@ -127,7 +127,7 @@ onMounted(() => {
         >
           <figure class="figure_12-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/agrovision/MAV-MySettings.png"
               alt="mysettings"
             />
@@ -149,7 +149,7 @@ onMounted(() => {
         >
           <figure class="figure_12-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/agrovision/MAV-ManageEmployees.png"
               alt="Diensten"
             />

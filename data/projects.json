@@ -48,11 +48,19 @@
     }
   },
   "Visma": {
-    "title": "VISMA",
+    "title": "VISMA Visionplanner",
     "description": "User Experience design & Designsystems",
     "image": {
       "url": "/portfolio/icons_products/vsm.jpg",
-      "alt": "Visma"
+      "alt": "Visma Visionplanner"
+    }
+  },
+  "VismaRaet": {
+    "title": "VISMA Raet",
+    "description": "User Experience design & Designsystems",
+    "image": {
+      "url": "/portfolio/icons_products/vsm.jpg",
+      "alt": "Visma Raet"
     }
   }
 }

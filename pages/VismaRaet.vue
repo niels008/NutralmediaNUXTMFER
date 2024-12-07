@@ -24,7 +24,7 @@ onMounted(() => {
         data-delay=".3s"
         class="detail_title anim"
       >
-        <Title :level="1">Visma | Visionplanner</Title>
+        <Title :level="1">Visma | Raet</Title>
         <Title :level="3">User Experience design &amp; Designsystems</Title>
       </div>
       <div class="o-wrapper">
@@ -285,8 +285,7 @@ onMounted(() => {
         >
           <figure class="figure_12-14">
             <img
-              class="shadow-2xl"
-              src="/portfolio/visma/VisionplannerCompilation.png"
+              src="/portfolio/visma/visionplanner.png"
               alt="Visionplanner, Wayfinder and Compilation expert"
             />
           </figure>
@@ -295,10 +294,7 @@ onMounted(() => {
           <contentWrap>
             <Title :level="3">Visionplanner Compilation</Title>
             <p>
-                With a clearly defined UI kit in place, called Wayfinder, we began developing Visionplanner Compilation a new application designed to support accountants in their daily tasks. The application streamlines workflows by integrating helpful information and automation into their routine processes.
-            </p>
-            <p>
-                During this time, we also focused on evolving Wayfinder from a simple UI kit into a fully-fledged design system. This involved defining reusable patterns and incorporating accessibility guidelines to ensure a more robust and inclusive design framework.
+                After having a clearly defined UI kit called Wayfinder we started working on Visionplanner Compilation. A new application that would help the accountant within his day to day work. The application helps the user by adding information and automation to his dayly work.
             </p>
 
           </contentWrap>

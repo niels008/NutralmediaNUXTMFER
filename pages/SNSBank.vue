@@ -64,7 +64,7 @@ onMounted(() => {
         >
           <figure class="figure_12-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/SNSBANK/snsbank1.jpg"
               alt="E-learning SNS Bank"
             />

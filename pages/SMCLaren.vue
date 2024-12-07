@@ -73,7 +73,7 @@ onMounted(() => {
         >
           <figure class="figure_19-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/smclaren/frontpage.png"
               alt="Voorpagina smclaren.nl"
             />
@@ -95,7 +95,7 @@ onMounted(() => {
         >
           <figure class="figure_113-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/smclaren/Diensten.png"
               alt="Diensten"
             />
@@ -195,7 +195,7 @@ onMounted(() => {
         >
           <figure class="figure_26-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/smclaren/partners.png"
               alt="Partners en Adviseurs"
             />
@@ -231,7 +231,7 @@ onMounted(() => {
         <div class="content_image-small vijftigprocent">
           <figure class="figure_12-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/smclaren/partners_detail.png"
               alt="Partners detail"
             />

@@ -105,7 +105,7 @@ onMounted(() => {
         >
           <figure class="figure_16-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/dashboard.jpg"
               alt="Voorpagina smclaren.nl"
             />
@@ -120,7 +120,7 @@ onMounted(() => {
         >
           <figure class="figure_16-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/dashboard.jpg"
               alt="Voorpagina smclaren.nl"
             />
@@ -155,7 +155,7 @@ onMounted(() => {
         >
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/invoer1.jpg"
               alt="Invoer"
             />
@@ -168,7 +168,7 @@ onMounted(() => {
         >
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/invoer2.jpg"
               alt="Invoer"
             />
@@ -183,7 +183,7 @@ onMounted(() => {
         >
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/invoer3.jpg"
               alt="Invoer"
             />
@@ -196,7 +196,7 @@ onMounted(() => {
         >
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/invoer4.jpg"
               alt="Invoer"
             />
@@ -227,7 +227,7 @@ onMounted(() => {
         >
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/invoer5.jpg"
               alt="Blogpagina"
             />
@@ -249,7 +249,7 @@ onMounted(() => {
         >
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/groep1.jpg"
               alt="groepen maken 1"
             />
@@ -262,7 +262,7 @@ onMounted(() => {
         >
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/groep2.jpg"
               alt="groepen maken 2"
             />
@@ -302,7 +302,7 @@ onMounted(() => {
         >
           <figure class="figure_9-16">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/groep3.jpg"
               alt="groepen maken 1"
             />
@@ -317,7 +317,7 @@ onMounted(() => {
         >
           <figure class="figure_11-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/lijstenmaken.jpg"
               alt="groepen maken 1"
             />
@@ -330,7 +330,7 @@ onMounted(() => {
         >
           <figure class="figure_11-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/lijstenmaken1.jpg"
               alt="groepen maken 2"
             />
@@ -380,7 +380,7 @@ onMounted(() => {
         >
           <figure class="figure_12-14">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/groepmaken1.jpg"
               alt="groepen maken 1"
             />
@@ -395,7 +395,7 @@ onMounted(() => {
         >
           <figure class="figure_12-14">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/groepmaken2.jpg"
               alt="groepen maken 2"
             />
@@ -404,7 +404,7 @@ onMounted(() => {
         <div class="content_image-small">
           <figure class="figure_12-14">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/groepmaken3.jpg"
               alt="groepen maken 3"
             />
@@ -439,7 +439,7 @@ onMounted(() => {
         <div class="content_image-small">
           <figure class="figure_65-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/vsmautomatisering/stijlgids.jpg"
               alt="groepen maken 3"
             />

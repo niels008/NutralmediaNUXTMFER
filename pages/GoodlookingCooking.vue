@@ -62,7 +62,7 @@ onMounted(() => {
         >
           <figure class="figure_29-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/goodlookingcooking/glc_detaildesktop.png"
               alt="Voorpagina Goodlooking Cooking"
             />
@@ -84,7 +84,7 @@ onMounted(() => {
         >
           <figure class="figure_59-9">
             <img
-              class="e-shadow"
+              class="shadow-2xl"
               src="/portfolio/goodlookingcooking/glc_detailmobile.png"
               alt="Goodlooking Cooking Mobiel"
             />
