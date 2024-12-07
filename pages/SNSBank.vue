@@ -72,6 +72,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="o-wrapper">
+        
         <div data-duration=".5s" data-delay=".3s" class="content_image anim">
           <figure class="figure_4-4">
             <img src="/portfolio/SNSBANK/collectie.png" alt="Collectie" />
