@@ -136,7 +136,7 @@ onMounted(() => {
               >Crafting Consistent Typography with Figma Styles</Title
             >
             <p>
-              We meticulously defined styles and semantic variables for each
+              We defined styles and semantic variables for each
               font and context in which it was used. This provided designers
               with clear guidelines for selecting the appropriate font and style
               from our cohesive design system.
@@ -184,9 +184,9 @@ onMounted(() => {
             </p>
             <p>
               As our design system matured, we opted to integrate Material
-              Design icons into our repertoire. This decision stemmed from the
+              Design icons into our designsystem. This decision stemmed from the
               realization that many of the icons we required were similar in
-              nature, and in
+              nature.
             </p>
           </contentWrap>
         </div>
