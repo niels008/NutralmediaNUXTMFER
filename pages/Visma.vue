@@ -56,26 +56,13 @@ onMounted(() => {
           <contentWrap>
             <Title :level="3">Wayfinder</Title>
             <p>
-              During my tenure at Visionplanner, I spearheaded the
-              implementation and development of Wayfinder, our comprehensive
-              design system. Operating within the accountancy sector,
-              Visionplanner specializes in crafting essential yearly
-              documentation for clients.
+                During my time at Visionplanner, I contributed to the implementation and development of Wayfinder, a comprehensive design system. Visionplanner operates in the accountancy sector, focusing on providing essential yearly documentation for clients.
             </p>
             <p>
-              The primary objective of the Wayfinder application is to
-              streamline processes and uphold a reputable stance within the
-              accountancy industry. Initially, a key challenge revolved around
-              users grappling with the multitude of styles present across our
-              product range.
+                The primary goal of the Wayfinder designsystem was to streamline processes and strengthen our trust within the accountancy industry. One of the key challenges we addressed was the lack of consistency across the styles used in our product range, which impacted the user experience and trust.
             </p>
             <p>
-              To foster greater user confidence and cohesion, we embarked on a
-              mission to consolidate disparate styles into a unified design
-              system. Wayfinder emerged as the singular solution, harmonizing
-              the entire product portfolio of Visionplanner. This strategic move
-              also involved transitioning our product strategy to a
-              platform-as-a-service model.
+                To improve user confidence and create a more cohesive experience, we worked on consolidating these varied styles into a unified design system. The Wayfinder design system became the central solution, ensuring alignment across Visionplanner’s product portfolio. As part of this initiative, we also began transitioning towards a platform-as-a-service (PaaS) model to support our evolving product strategy.
             </p>
           </contentWrap>
         </div>
