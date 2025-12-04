@@ -1,22 +1,10 @@
 @import "./colors.scss";
-// globals
-@font-face {
-  font-family: "Opensans";
-  font-style: normal;
-  src: url("../fonts/opensans/OpenSans-Regular.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Bitter:wght@300;400;600&display=swap');
 
-@font-face {
-  font-family: "Bitter Normal";
-  font-style: normal;
-  src: url("../fonts/opensans/OpenSans-SemiBold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Bitter";
-  font-style: normal;
-  src: url("../fonts/opensans/OpenSans-Light") format("truetype");
-}
+// Font families
+$font-bitter: 'Bitter', serif;
+$font-bitter-thicc: 'Bitter', serif; // Using 600 weight for Bitter Normal
+$font-os: 'Open Sans', sans-serif;
 
 $xl: 1920px;
 $lg: 1280px;
