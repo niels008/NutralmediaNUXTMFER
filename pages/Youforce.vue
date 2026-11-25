@@ -195,6 +195,22 @@ useSeoMeta({
     <div class="o-wrapper" style="align-items: flex-start">
       <div data-duration=".5s" data-delay=".15s" class="content_text anim">
         <contentWrap>
+          <PageTitle :level="3">360 degree feedback</PageTitle>
+          <p>
+            We also introduced 360 degree feedback. Next to the conversation
+            itself, an employee can ask several people around them for
+            feedback, so the conversation is based on more than one point of
+            view.
+          </p>
+          <p>
+            The result view shows how many of the people asked have answered,
+            then the answers per question. The screenshot shows the question
+            types side by side: a five point scale as a bar chart, a yes or no
+            question as a ring, a ten point score, and the open answers below
+            them.
+          </p>
+        </contentWrap>
+        <contentWrap>
           <PageTitle :level="3">Reporting</PageTitle>
           <p>
             Administrators create the forms and the questions themselves, and
@@ -210,17 +226,23 @@ useSeoMeta({
           </p>
         </contentWrap>
       </div>
-      <div data-duration=".5s" data-delay=".15s" class="content_text anim">
-        <contentWrap>
-          <PageTitle :level="3">360 degree feedback</PageTitle>
-          <p>
-            We also introduced 360 degree feedback. Next to the conversation
-            itself, an employee can ask several people around them for
-            feedback, so the conversation is based on more than one point of
-            view.
-          </p>
-        </contentWrap>
+      <div
+        data-duration=".5s"
+        data-delay=".15s"
+        class="content_image-small anim"
+        style="max-width: 420px"
+      >
+        <img
+          class="shadow-2xl"
+          src="/portfolio/youforce/hrcycle-360-feedback.png"
+          alt="360 degree feedback results in HR Cycle: response progress, a five point scale, a yes or no question, a ten point score and open answers"
+          width="1200"
+          height="2337"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
     </div>
+
   </SectionDetail>
 </template>

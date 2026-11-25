@@ -43,6 +43,9 @@
     font-weight: normal;
   }
 }
+.content_text .c-wrap + .c-wrap {
+  margin-top: 2rem;
+}
 .c-wrap {
   h3 {
     font-weight: bold;
