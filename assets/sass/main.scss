@@ -52,7 +52,8 @@
   p {
     font-weight: normal;
     color: $detial-content-p;
-    line-height: 1.5rem;
+    line-height: 1.6;
+    margin: 0 0 1rem;
   }
 }
 .main {
@@ -783,7 +784,7 @@ section.detail {
   flex-direction: column;
   margin: 1rem;
   max-width: 50%;
-  text-align: justify;
+  text-align: left;
   justify-content: center;
   align-items: center;
   @media (max-width: $sm) {
@@ -803,7 +804,7 @@ section.detail {
   flex: 1;
   flex-direction: row;
   margin: 1rem;
-  text-align: justify;
+  text-align: left;
   justify-content: center;
   align-items: center;
   @media (max-width: $sm) {
