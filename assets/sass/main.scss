@@ -32,8 +32,11 @@
 // main scss
 //
 
+// Display titles use the same heavy Open Sans cut as the overlay menu.
 .title {
-  font-weight: normal;
+  font-family: $font-os;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 .product_detail_text {
   font-weight: bold;
@@ -130,7 +133,9 @@ section.services {
     justify-content: space-between;
     h1 {
       font-size: 2rem;
-      font-family: $font-bitter;
+      font-family: $font-os;
+      font-weight: 800;
+      letter-spacing: -0.02em;
       @media (max-width: $lg) {
         font-size: 1.2rem;
       }
@@ -515,7 +520,6 @@ section.hero {
   }
 }
 .title {
-  font-family: $font-bitter;
   color: white;
   font-size: 3.5rem;
   @media (max-width: $md) {
