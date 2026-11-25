@@ -1,7 +1,4 @@
-<script setup>
-import ContactArrow from "@/components/global/ContactArrow.vue";
-import Logo from "./Logo.vue";
-</script>
+<script setup></script>
 
 <template>
   <section id="hero" class="hero">
@@ -27,13 +24,13 @@ import Logo from "./Logo.vue";
           </a>
         </div>
         <div class="item-2">
-          <router-link to="/myprocess">
+          <NuxtLink to="/myprocess">
             <div data-duration=".5s" data-delay=".15s" class="anim">
               <h2>My process</h2>
               <p>Get to know my process so you know how I work.</p>
             </div>
             <div class="arrow"></div>
-          </router-link>
+          </NuxtLink>
         </div>
       </div>
     </aside>
@@ -42,11 +39,3 @@ import Logo from "./Logo.vue";
     </a>
   </section>
 </template>
-
-<style lang="postcss">
-section.hero > header {
-  h1 {
-    @extend %title-900;
-  }
-}
-</style>

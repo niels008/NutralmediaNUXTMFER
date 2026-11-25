@@ -22,7 +22,10 @@ defineProps({
     <img
       class="bgproject"
       :src="projectsData[project].image.url"
-      :alt="projectsData[project].image.alt"
+      alt=""
+      aria-hidden="true"
+      loading="lazy"
+      decoding="async"
     />
   </section>
 </template>

@@ -1,10 +1,6 @@
 <script setup>
-import { defineProps } from 'vue';
-import Footer from "@/components/global/Footer.vue";
-import BacktoTopButton from "@/components/global/BacktoTopButton.vue";
-
-const props = defineProps({
-  extraSpacing: Boolean
+defineProps({
+  extraSpacing: Boolean,
 });
 </script>
 

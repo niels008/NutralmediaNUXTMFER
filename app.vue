@@ -1,14 +1,18 @@
-<script>
+<script setup>
 import { provide, reactive } from "vue";
 
-export default {
-  setup() {
-    const state = reactive({
-      menuOpen: false,
-    });
-    provide("state", state);
-  },
-};
+const state = reactive({
+  menuOpen: false,
+});
+provide("state", state);
+
+useHead({
+  titleTemplate: (title) =>
+    title ? `${title} | Niels de Bont` : "Niels de Bont — Digital Product Designer",
+  // Without JavaScript the reveal animation never runs, so the content must
+  // not stay at opacity 0.
+  noscript: [{ children: "<style>.anim{opacity:1}</style>" }],
+});
 </script>
 
 <template>

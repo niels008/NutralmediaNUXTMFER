@@ -6,8 +6,9 @@
       </h1>
       <ul>
         <li data-duration=".3s" data-delay=".15s" class="anim">
-          <a href="tel:+310624173831">
+          <a href="tel:+31624173831" aria-label="Call Niels de Bont">
             <svg
+              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -26,8 +27,9 @@
           </a>
         </li>
         <li data-duration=".3s" data-delay=".2s" class="anim">
-          <a href="mailto:nutralmedia@gmail.com">
+          <a href="mailto:nutralmedia@gmail.com" aria-label="Email Niels de Bont">
             <svg
+              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -49,9 +51,12 @@
         <li data-duration=".3s" data-delay=".25s" class="anim">
           <a
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Niels de Bont on LinkedIn"
             href="https://www.linkedin.com/in/niels-de-bont-3169a185/"
           >
             <svg
+              aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"

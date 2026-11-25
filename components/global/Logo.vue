@@ -1,11 +1,8 @@
 <script setup>
-import { computed } from "@vue/runtime-core";
-
 defineProps({
   variant: {
     type: String,
     default: "big",
-    required: true,
   },
 });
 

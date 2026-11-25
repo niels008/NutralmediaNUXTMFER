@@ -20,6 +20,14 @@
 .anim {
   opacity: 0;
 }
+// Without JavaScript or with reduced motion requested, the content must stay
+// visible instead of being stuck at opacity 0.
+@media (prefers-reduced-motion: reduce) {
+  .anim {
+    opacity: 1;
+    animation: none !important;
+  }
+}
 //
 // main scss
 //
@@ -623,6 +631,11 @@ section.detail {
       width: 95%;
       position: unset;
     }
+  }
+  .content_image > img,
+  .content_image-small > img {
+    max-width: 100%;
+    height: auto;
   }
   [class*="figure_"] {
     flex: 1;

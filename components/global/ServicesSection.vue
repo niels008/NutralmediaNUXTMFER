@@ -1,7 +1,3 @@
-<script setup>
-import ContactArrow from "@/components/global/ContactArrow.vue";
-</script>
-
 <template>
   <section id="services" class="services">
     <header>

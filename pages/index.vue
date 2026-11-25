@@ -1,16 +1,16 @@
 <script setup>
-import { onMounted } from "vue";
-import Menu from "@/components/global/Menu.vue";
-import Animations from "@/functions/Animations";
-import BacktoTopButton from "@/components/global/BacktoTopButton.vue";
-import Footer from "@/components/global/Footer.vue";
-import HeroSection from "@/components/global/HeroSection.vue";
-import ServicesSection from "@/components/global/ServicesSection.vue";
-import ProjectButton from "@/components/global/ProjectButton.vue";
-
-onMounted(() => {
-  Animations();
+useSeoMeta({
+  title: "Digital Product Designer",
+  description:
+    "Portfolio of Niels de Bont, digital product designer. Cases in UX design, design systems, product design and front-end development.",
+  ogTitle: "Digital Product Designer | Niels de Bont",
+  ogDescription:
+    "Portfolio of Niels de Bont, digital product designer. Cases in UX design, design systems, product design and front-end development.",
+  ogImage: "/studiofoto.jpg",
+  ogType: "website",
 });
+
+useScrollReveal();
 </script>
 
 <template>
