@@ -1009,15 +1009,16 @@ section.detail {
   }
 }
 .projects {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
   background-color: white;
-  padding: 4rem 7.5rem;
+  padding: 7.5rem;
   @media (max-width: $lg) {
     padding: 3rem;
   }
   @media (max-width: $md) {
+    display: flex;
+    flex-direction: column;
     padding: 3rem;
   }
 }
