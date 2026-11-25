@@ -49,7 +49,7 @@ const letters = computed(() =>
   position: relative;
   display: block;
   overflow: hidden;
-  line-height: 0.75;
+  line-height: 1.1;
 
   .text-roll__layer > span {
     display: inline-block;
