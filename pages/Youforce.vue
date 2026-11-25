@@ -61,7 +61,7 @@ useSeoMeta({
       <PageTitle :level="3">A conversation first, a form second</PageTitle>
     </div>
 
-    <div class="o-wrapper o-wrapper-3col" style="align-items: flex-start">
+    <div class="o-wrapper" style="align-items: flex-start">
       <div data-duration=".5s" data-delay=".15s" class="content_text anim">
         <contentWrap>
           <PageTitle :level="3">What the research showed</PageTitle>
@@ -94,6 +94,9 @@ useSeoMeta({
           </p>
         </contentWrap>
       </div>
+    </div>
+
+    <div class="o-wrapper">
       <div data-duration=".5s" data-delay=".15s" class="content_text anim">
         <contentWrap>
           <PageTitle :level="3">Mobile and desktop</PageTitle>
@@ -108,9 +111,6 @@ useSeoMeta({
           </p>
         </contentWrap>
       </div>
-    </div>
-
-    <div class="o-wrapper">
       <div
         data-duration=".5s"
         data-delay=".15s"
