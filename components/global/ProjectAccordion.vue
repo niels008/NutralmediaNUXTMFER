@@ -60,7 +60,8 @@ const active = ref(0);
     display: block;
     flex: 1 1 0;
     min-width: 0;
-    height: 24rem;
+    height: 70vh;
+    min-height: 30rem;
     overflow: hidden;
     border-radius: 1.5rem;
     text-decoration: none;
@@ -119,8 +120,10 @@ const active = ref(0);
 
     .cases__item,
     .cases__item--active {
-      flex: 0 0 12rem;
+      flex: 0 0 16rem;
       flex-grow: 0;
+      height: 16rem;
+      min-height: 0;
     }
 
     .cases__detail {
