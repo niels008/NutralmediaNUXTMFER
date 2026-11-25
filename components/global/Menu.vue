@@ -26,13 +26,15 @@ const closeMenu = () => {
       <div>
         <div>
           <ul>
-            <li><a @click="closeMenu" href="#hero">Home</a></li>
+            <li><a @click="closeMenu" href="#hero"><TextRoll text="Home" /></a></li>
             <li>
-              <NuxtLink to="/myprocess" @click="closeMenu">My process</NuxtLink>
+              <NuxtLink to="/myprocess" @click="closeMenu">
+                <TextRoll text="My process" />
+              </NuxtLink>
             </li>
-            <li><a @click="closeMenu" href="#cases">Cases</a></li>
-            <li><a @click="closeMenu" href="#services">Services</a></li>
-            <li><a @click="closeMenu" href="#contact">Contact</a></li>
+            <li><a @click="closeMenu" href="#cases"><TextRoll text="Cases" /></a></li>
+            <li><a @click="closeMenu" href="#services"><TextRoll text="Services" /></a></li>
+            <li><a @click="closeMenu" href="#contact"><TextRoll text="Contact" /></a></li>
           </ul>
         </div>
       </div>
