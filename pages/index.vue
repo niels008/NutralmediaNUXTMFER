@@ -20,17 +20,18 @@ useScrollReveal();
     <ServicesSection />
     <section class="projects">
       <h1 class="title title-mg black">Cases</h1>
-      <section id="cases" class="products">
-        <ProjectButton project="Youforce" />
-        <ProjectButton project="Visma" />
-        <!-- <ProjectButton project="VismaRaet" /> -->
-        <ProjectButton project="Agrovision" />
-        <ProjectButton project="VSMAutomatisering" />
-        <ProjectButton project="ESports" />
-        <ProjectButton project="SMCLaren" />
-        <ProjectButton project="GoodlookingCooking" />
-        <ProjectButton project="SNSBank" />
-      </section>
+      <ProjectAccordion
+        :projects="[
+          'Youforce',
+          'Visma',
+          'Agrovision',
+          'VSMAutomatisering',
+          'ESports',
+          'SMCLaren',
+          'GoodlookingCooking',
+          'SNSBank',
+        ]"
+      />
     </section>
     <Footer />
     <BacktoTopButton />
