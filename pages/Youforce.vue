@@ -199,7 +199,8 @@ useSeoMeta({
           <p>
             Administrators create the forms and the questions themselves, and
             the answers are available in reporting. Overviews are built with
-            Power BI.
+            Power BI. Reporting shipped in the first release, even though a
+            lot else was descoped to make the deadline.
           </p>
           <p>
             How much the reporting can show depends on the question types. Two
