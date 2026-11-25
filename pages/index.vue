@@ -21,6 +21,7 @@ useScrollReveal();
     <section class="projects">
       <h1 class="title title-mg black">Cases</h1>
       <section id="cases" class="products">
+        <ProjectButton project="Youforce" />
         <ProjectButton project="Visma" />
         <!-- <ProjectButton project="VismaRaet" /> -->
         <ProjectButton project="Agrovision" />
