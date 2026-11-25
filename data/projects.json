@@ -3,72 +3,72 @@
     "title": "Youforce",
     "description": "HR & payroll platform — UX design and design system",
     "image": {
-      "url": "/portfolio/thumbs/youforce.jpg",
-      "alt": "HR Cycle annual review form in Youforce"
+      "url": "/portfolio/youforce/hrcycle-jaargesprek.png",
+      "alt": "Youforce case study"
     }
   },
   "ESports": {
     "title": "E-Sports",
     "description": "Logo's, twitch overlays and t-shirts",
     "image": {
-      "url": "/portfolio/thumbs/esports.jpg",
-      "alt": "Dragons Unfold e-sports team shirts"
+      "url": "/portfolio/icons_products/esp.jpg",
+      "alt": "E-Sports case"
     }
   },
   "GoodlookingCooking": {
     "title": "Goodlooking Cooking",
     "description": "Webdesign & front-end development",
     "image": {
-      "url": "/portfolio/thumbs/goodlookingcooking.jpg",
-      "alt": "Goodlooking Cooking website with food photography"
+      "url": "/portfolio/icons_products/glc.jpg",
+      "alt": "Good Looking case study"
     }
   },
   "SMCLaren": {
     "title": "SMC-Laren",
     "description": "Webdesign & front-end development",
     "image": {
-      "url": "/portfolio/thumbs/smclaren.jpg",
-      "alt": "SMC-Laren website homepage"
+      "url": "/portfolio/icons_products/smc.jpg",
+      "alt": "SMC-Laren case study"
     }
   },
   "SNSBank": {
     "title": "SNS Bank",
     "description": "E-Learning basic design and setup",
     "image": {
-      "url": "/portfolio/thumbs/snsbank.jpg",
-      "alt": "Collection of SNS Bank e-learning screens"
+      "url": "/portfolio/icons_products/sns.jpg",
+      "alt": "SNS Bank case study"
     }
   },
   "VSMAutomatisering": {
     "title": "VSM Automatisering",
     "description": "UX research and UI design",
     "image": {
-      "url": "/portfolio/thumbs/vsmautomatisering.jpg",
-      "alt": "EGAM style guide with colours and type scale"
+      "url": "/portfolio/icons_products/vsm.jpg",
+      "alt": "VSM Automatisering case study"
     }
   },
   "Agrovision": {
     "title": "Agrovision",
     "description": "Product Design & Big data",
     "image": {
-      "url": "/portfolio/thumbs/agrovision.jpg",
-      "alt": "Agrovision analytics tables with characteristics"
+      "url": "/portfolio/icons_products/vsm.jpg",
+      "alt": "Agrovision"
     }
   },
   "Visma": {
     "title": "VISMA Visionplanner",
     "description": "User Experience design & Designsystems",
     "image": {
-      "url": "/portfolio/thumbs/visma.jpg",
-      "alt": "Visionplanner design system colour palette"
+      "url": "/portfolio/icons_products/vsm.jpg",
+      "alt": "Visma Visionplanner"
     }
   },
   "VismaRaet": {
     "title": "VISMA Raet",
     "description": "User Experience design & Designsystems",
     "image": {
-      "url": "/portfolio/thumbs/vismaraet.jpg",
-      "alt": "Visma Raet design system elements"
+      "url": "/portfolio/icons_products/vsm.jpg",
+      "alt": "Visma Raet"
     }
   }
 }
