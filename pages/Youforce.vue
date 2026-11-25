@@ -192,7 +192,23 @@ useSeoMeta({
       </div>
     </div>
 
-    <div class="o-wrapper">
+    <div class="o-wrapper" style="align-items: flex-start">
+      <div data-duration=".5s" data-delay=".15s" class="content_text anim">
+        <contentWrap>
+          <PageTitle :level="3">Reporting</PageTitle>
+          <p>
+            Administrators create the forms and the questions themselves, and
+            the answers are available in reporting. Overviews are built with
+            Power BI.
+          </p>
+          <p>
+            How much the reporting can show depends on the question types. Two
+            point questions, five point questions and scoring questions all
+            return values, so an administrator who wants more data in view can
+            lean on those rather than open text.
+          </p>
+        </contentWrap>
+      </div>
       <div data-duration=".5s" data-delay=".15s" class="content_text anim">
         <contentWrap>
           <PageTitle :level="3">360 degree feedback</PageTitle>
