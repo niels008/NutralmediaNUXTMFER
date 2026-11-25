@@ -8,7 +8,7 @@ const props = defineProps({
   },
   stagger: {
     type: Number,
-    default: 0.035,
+    default: 0.04,
   },
 });
 
@@ -53,7 +53,8 @@ const letters = computed(() =>
 
   .text-roll__layer > span {
     display: inline-block;
-    transition: transform 0.4s ease-in-out;
+    // framer-motion's easeInOut tween, which the reference component uses
+    transition: transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
   }
 
   .text-roll__layer--incoming {
@@ -77,9 +78,4 @@ const letters = computed(() =>
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .text-roll .text-roll__layer > span {
-    transition: none;
-  }
-}
 </style>
