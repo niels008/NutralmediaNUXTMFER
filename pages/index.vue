@@ -11,6 +11,16 @@ useSeoMeta({
 });
 
 useScrollReveal();
+
+// "See all cases" at the end of a case links to /#cases. Home scrolls inside
+// .main rather than the window, so scroll that pane to the Cases grid.
+const route = useRoute();
+onMounted(() => {
+  if (route.hash !== "#cases") return;
+  requestAnimationFrame(() => {
+    document.getElementById("cases")?.scrollIntoView({ block: "start" });
+  });
+});
 </script>
 
 <template>
@@ -21,15 +31,7 @@ useScrollReveal();
     <section class="projects">
       <h1 class="title title-mg black">Cases</h1>
       <section id="cases" class="products">
-        <ProjectButton project="Youforce" />
-        <ProjectButton project="Visma" />
-        <!-- <ProjectButton project="VismaRaet" /> -->
-        <ProjectButton project="Agrovision" />
-        <ProjectButton project="VSMAutomatisering" />
-        <ProjectButton project="ESports" />
-        <ProjectButton project="SMCLaren" />
-        <ProjectButton project="GoodlookingCooking" />
-        <ProjectButton project="SNSBank" />
+        <ProjectButton v-for="name in CASE_ORDER" :key="name" :project="name" />
       </section>
     </section>
     <Footer />

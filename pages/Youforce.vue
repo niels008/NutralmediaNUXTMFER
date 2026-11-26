@@ -24,7 +24,7 @@ useSeoMeta({
       <PageTitle :level="1">Youforce</PageTitle>
       <PageTitle :level="3">HR &amp; payroll platform</PageTitle>
     </div>
-    <div class="o-wrapper">
+    <div class="o-wrapper yf-row">
       <div data-duration=".5s" data-delay=".3s" class="content_text anim">
         <contentWrap>
           <PageTitle :level="3">The platform</PageTitle>
@@ -61,7 +61,7 @@ useSeoMeta({
       <PageTitle :level="3">A conversation first, a form second</PageTitle>
     </div>
 
-    <div class="o-wrapper" style="align-items: flex-start">
+    <div class="o-wrapper yf-row" style="align-items: flex-start">
       <div data-duration=".5s" data-delay=".15s" class="content_text anim">
         <contentWrap>
           <PageTitle :level="3">What the research showed</PageTitle>
@@ -96,7 +96,7 @@ useSeoMeta({
       </div>
     </div>
 
-    <div class="o-wrapper">
+    <div class="o-wrapper yf-row">
       <div data-duration=".5s" data-delay=".15s" class="content_text anim">
         <contentWrap>
           <PageTitle :level="3">Mobile and desktop</PageTitle>
@@ -129,7 +129,7 @@ useSeoMeta({
       </div>
     </div>
 
-    <div class="o-wrapper">
+    <div class="o-wrapper yf-row">
       <div data-duration=".5s" data-delay=".15s" class="content_text anim">
         <contentWrap>
           <PageTitle :level="3">The admin side</PageTitle>
@@ -165,7 +165,7 @@ useSeoMeta({
       </div>
     </div>
 
-    <div class="o-wrapper" style="align-items: flex-start">
+    <div class="o-wrapper yf-row" style="align-items: flex-start">
       <div data-duration=".5s" data-delay=".15s" class="content_text anim">
         <contentWrap>
           <PageTitle :level="3">Scoping for a deadline</PageTitle>
@@ -192,7 +192,7 @@ useSeoMeta({
       </div>
     </div>
 
-    <div class="o-wrapper" style="align-items: flex-start">
+    <div class="o-wrapper yf-row" style="align-items: flex-start">
       <div data-duration=".5s" data-delay=".15s" class="content_text anim">
         <contentWrap>
           <PageTitle :level="3">360 degree feedback</PageTitle>
@@ -246,3 +246,23 @@ useSeoMeta({
 
   </SectionDetail>
 </template>
+
+<style lang="postcss">
+/* Youforce case: every row shares one left text edge and one right image edge */
+.o-wrapper.yf-row {
+  justify-content: space-between;
+  gap: 4rem;
+  padding: 0 1rem;
+  > .content_text {
+    flex: 1 1 0;
+    max-width: none;
+    margin: 1rem 0;
+    align-items: flex-start;
+  }
+  > .content_image-small {
+    flex: 0 1 auto;
+    margin: 1rem 0;
+    justify-content: flex-end;
+  }
+}
+</style>
