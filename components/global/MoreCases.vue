@@ -36,7 +36,7 @@ const nextCases = computed(() => {
 
 <style lang="postcss">
 .next-case {
-  @apply w-full flex flex-col items-center gap-10 mt-10;
+  @apply w-full flex flex-col items-center gap-10 mt-10 pb-16 md:pb-0;
   .products {
     @apply w-full;
   }
