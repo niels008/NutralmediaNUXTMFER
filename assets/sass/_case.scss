@@ -1,0 +1,83 @@
+//
+// Case study structure (shared by all case pages)
+//
+.case-label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f69c2a;
+  margin-bottom: 0.75rem;
+}
+.case-label-center { text-align: center; }
+.case-block,
+.case-steps {
+  width: 100%;
+  max-width: 1280px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.case-block_head,
+.case-step_head {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: start;
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+  .c-wrap { max-width: 640px; }
+  .c-wrap p { max-width: 640px; }
+  .c-wrap h3 { max-width: 640px; }
+}
+.case-block_head { grid-template-columns: 1fr; }
+.case-block_head .c-wrap h3 { font-size: 1.6rem; }
+.case-steps { gap: 5rem; }
+.case-step {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.case-step_num {
+  font-family: "Bitter", serif;
+  font-size: 3rem;
+  line-height: 1;
+  color: #f69c2a;
+}
+.case-step_head .c-wrap h3 { font-size: 1.6rem; }
+.case-screens {
+  margin: 0;
+  img { width: 100%; height: auto; display: block; }
+}
+.case-screens-scroll {
+  max-height: 720px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  img { width: 100%; height: auto; display: block; }
+}
+.case-block > .case-screens-1 { max-width: 960px; }
+.case-screens-narrow { max-width: 640px; margin-left: calc(33.333% + 0.7rem); @media (max-width: 600px) { margin-left: 0; } }
+.case-screens-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+}
+.case-atoms {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.5rem;
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+  dt { font-family: "Bitter", serif; font-weight: 700; margin-bottom: 0.25rem; }
+  dd { font-family: "Open Sans", sans-serif; font-size: 0.9rem; line-height: 1.6; color: #333333; }
+}
+.case-figma iframe {
+  width: 100%;
+  height: 71vh;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}

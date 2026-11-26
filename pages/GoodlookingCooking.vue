@@ -11,27 +11,30 @@ useSeoMeta({
   ogImage: "/portfolio/goodlookingcooking/glc_detaildesktop.png",
   ogType: "website",
 });
+
+const facts = [
+  { label: "Role", value: "UX + UI design and frontend development" },
+  { label: "Timeline", value: "2 weeks" },
+  { label: "Platform", value: "Adecon CMS" },
+];
 </script>
 
 <template>
   <SectionDetail :extraSpacing="true">
-    <div
-      id="hero"
-      data-duration=".5s"
-      data-delay=".15s"
-      class="detail_title anim"
-    >
-      <PageTitle :level="1">Goodlooking Cooking</PageTitle>
-      <PageTitle :level="2">Webdesign &amp; Front-end development</PageTitle>
-    </div>
-    <div class="o-wrapper">
-      <div
-        data-duration=".5s"
-        data-delay=".15s"
-        class="content_text sticky anim"
-      >
+    <CaseIntro
+      client="Goodlooking Cooking"
+      project="Webdesign & Front-end development"
+      outcome="Gave a luxury catering company a website that shows off its craft, and the phone started ringing."
+    />
+
+    <CaseAtAGlance :facts="facts" />
+
+    <!-- The problem -->
+    <section class="case-block anim" data-duration=".5s" data-delay=".15s">
+      <div class="case-block_head">
+        <p class="case-label">The problem</p>
         <contentWrap>
-          <PageTitle :level="3">GoodlookingCooking</PageTitle>
+          <PageTitle :level="3">A lot of visual material, but nothing done with it</PageTitle>
           <p>
             The company focuses on preparing beautiful dishes and is active in
             catering. They use Dutchovens, Ofyrs and Monoliths for this. This
@@ -40,47 +43,66 @@ useSeoMeta({
           </p>
           <p>
             The company has a lot of visual material, but nothing is done with
-            it on their current website. Within the redesign of the website it
-            was decided to use these images to reflect the atmosphere of the
-            company and the number of events they host.
+            it on their current website.
           </p>
           <p>
-            During the process, we indicated that using a video could enhance
-            the atmosphere. This video ensures more interaction with the
-            customer and shows the user what the atmosphere is like on
-            location.
+            After asking a bit further we came to the conclusion that
+            "catering" is referred to something cheap in Holland. As a company
+            they tried to focus on luxury goods and luxurious.
           </p>
         </contentWrap>
       </div>
-      <div
-        data-duration=".5s"
-        data-delay=".15s"
-        class="content_image-small vijftigprocent anim"
-      >
-        <figure class="figure_29-9">
-          <img
-            class="shadow-2xl"
-            src="/portfolio/goodlookingcooking/glc_detaildesktop.png"
-            alt="Goodlooking Cooking website on desktop"
-            fetchpriority="high"
-          />
-        </figure>
-      </div>
-    </div>
-    <div
-      data-duration=".5s"
-      data-delay=".15s"
-      class="detail_title spacer anim"
-    >
-      <PageTitle :level="1">Mobile</PageTitle>
-    </div>
-    <div class="o-wrapper">
-      <div
-        data-duration=".5s"
-        data-delay=".15s"
-        class="content_image-small anim"
-      >
-        <figure class="figure_59-9">
+      <figure class="case-screens case-screens-1">
+        <img
+          class="shadow-2xl"
+          src="/portfolio/goodlookingcooking/glc_detaildesktop.png"
+          alt="Goodlooking Cooking website on desktop"
+          fetchpriority="high"
+        />
+      </figure>
+    </section>
+
+    <!-- What I did -->
+    <section class="case-steps">
+      <p class="case-label case-label-center">What I did</p>
+
+      <article class="case-step anim" data-duration=".5s" data-delay=".15s">
+        <div class="case-step_head">
+          <span class="case-step_num">01</span>
+          <contentWrap>
+            <PageTitle :level="3">Let the images and a video carry the atmosphere</PageTitle>
+            <p>
+              Within the redesign of the website it was decided to use these
+              images to reflect the atmosphere of the company and the number of
+              events they host.
+            </p>
+            <p>
+              During the process, we indicated that using a video could enhance
+              the atmosphere. This video ensures more interaction with the
+              customer and shows the user what the atmosphere is like on
+              location.
+            </p>
+          </contentWrap>
+        </div>
+      </article>
+
+      <article class="case-step anim" data-duration=".5s" data-delay=".15s">
+        <div class="case-step_head">
+          <span class="case-step_num">02</span>
+          <contentWrap>
+            <PageTitle :level="3">Bring Instagram into a mobile layout</PageTitle>
+            <p>
+              Because instagram is increasingly playing a role for catering
+              companies, the customer asked to implement instagram in the
+              website.
+            </p>
+            <p>
+              In this way, the user can share the various images on the website
+              or view them on instagram.
+            </p>
+          </contentWrap>
+        </div>
+        <figure class="case-screens case-screens-1 case-screens-narrow">
           <img
             class="shadow-2xl"
             src="/portfolio/goodlookingcooking/glc_detailmobile.png"
@@ -89,30 +111,23 @@ useSeoMeta({
             decoding="async"
           />
         </figure>
-      </div>
-      <div
-        data-duration=".5s"
-        data-delay=".15s"
-        class="content_text sticky anim"
-      >
+      </article>
+    </section>
+
+    <!-- The result -->
+    <section class="case-block anim" data-duration=".5s" data-delay=".15s">
+      <div class="case-block_head">
+        <p class="case-label">The result</p>
         <contentWrap>
-          <PageTitle :level="3">Telefoon format</PageTitle>
+          <PageTitle :level="3">More visible, and the craft on show</PageTitle>
           <p>
-            Because instagram is increasingly playing a role for catering
-            companies, the customer asked to implement instagram in the
-            website.
+            We helped the company become more visible and showed off the craft behind it.
           </p>
           <p>
-            In this way, the user can share the various images on the website
-            or view them on instagram.
-          </p>
-          <p>
-            After asking a bit further we came to the conclusion that
-            "catering" is refered to something cheap in Holland. As a company
-            they tried to focus on luxury goods and luxurious.
+            After the website went live, the owner told us they got a lot of calls.
           </p>
         </contentWrap>
       </div>
-    </div>
+    </section>
   </SectionDetail>
 </template>
