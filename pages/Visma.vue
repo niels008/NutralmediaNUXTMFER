@@ -11,309 +11,239 @@ useSeoMeta({
   ogImage: "/portfolio/visma/visionplanner.png",
   ogType: "website",
 });
+
+const facts = [
+  { label: "Role", value: "Product designer" },
+  { label: "Timeline", value: "A few months" },
+  { label: "Platform", value: "Visionplanner" },
+];
 </script>
 
 <template>
   <SectionDetail :extraSpacing="true">
-    <div
-      id="hero"
-      data-duration=".5s"
-      data-delay=".3s"
-      class="detail_title anim"
-    >
-      <PageTitle :level="1">Visma | Visionplanner</PageTitle>
-      <PageTitle :level="3">User Experience design &amp; Designsystems</PageTitle>
-    </div>
-    <div class="o-wrapper">
-      <iframe
-        style="
-          height: 71vh;
-          display: flex;
-          flex: 1;
-          border: 1px solid rgba(0, 0, 0, 0.1);
-        "
-        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FUShdGyxIhDfBsfs32gfZWA%2FWayfinder---Design-System%3Ftype%3Ddesign%26node-id%3D1%253A3%26mode%3Ddesign%26t%3DTUOxn20FhJwJnUlD-1"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <div class="o-wrapper">
-      <div
-        data-duration=".5s"
-        data-delay=".3s"
-        class="content_image-small vijftigprocent anim"
-      >
-        <figure class="figure_12-14">
-          <img
-            src="/portfolio/visma/visionplanner.png"
-            alt="Visionplanner product screens using Wayfinder"
-            fetchpriority="high"
-          />
+    <CaseIntro
+      client="Visma | Visionplanner"
+      project="User Experience design & Designsystems"
+      outcome="Turned a product range with inconsistent styles into Wayfinder, one design system that went on to power Visionplanner Compilation."
+    />
+
+    <CaseAtAGlance :facts="facts" />
+
+    <!-- The problem -->
+    <section class="case-block anim" data-duration=".5s" data-delay=".15s">
+      <div class="case-block_head">
+        <p class="case-label">The problem</p>
+        <contentWrap>
+          <PageTitle :level="3">Inconsistent styles were costing users' trust</PageTitle>
+          <p>
+            Visionplanner operates in the accountancy sector, focusing on providing essential yearly documentation for clients.
+          </p>
+          <p>
+            One of the key challenges we addressed was the lack of consistency across the styles used in our product range, which impacted the user experience and trust.
+          </p>
+        </contentWrap>
+      </div>
+      <figure class="case-screens case-screens-1">
+        <img
+          src="/portfolio/visma/visionplanner.png"
+          alt="Visionplanner product screens using Wayfinder"
+          fetchpriority="high"
+        />
+      </figure>
+    </section>
+
+    <!-- What I did -->
+    <section class="case-steps">
+      <p class="case-label case-label-center">What I did</p>
+
+      <article class="case-step anim" data-duration=".5s" data-delay=".15s">
+        <div class="case-step_head">
+          <span class="case-step_num">01</span>
+          <contentWrap>
+            <PageTitle :level="3">Start from the brand, together with marketing</PageTitle>
+            <p>
+              Our journey began with a collaborative effort between our team and the marketing department to establish a cohesive style guide, aligning the brand identity with the product's visual elements across applications, websites, and customer interactions.
+            </p>
+            <p>
+              Ultimately, our aim was twofold: to instill trust among our users and to demonstrate our commitment to incorporating their perspectives into our design decisions.
+            </p>
+          </contentWrap>
+        </div>
+        <figure class="case-screens case-screens-1 case-screens-narrow case-screens-scroll" tabindex="0" aria-label="Colors and basics style guide, scroll to see all">
+          <img src="/portfolio/visma/Styleguide-ColorsBasics.png" alt="Wayfinder style guide: colors and basics" loading="lazy" decoding="async" />
         </figure>
-      </div>
-      <div data-duration=".5s" data-delay=".15s" class="content_text anim">
-        <contentWrap>
-          <PageTitle :level="3">Wayfinder</PageTitle>
-          <p>
-              During my time at Visionplanner, I contributed to the implementation and development of Wayfinder, a comprehensive design system. Visionplanner operates in the accountancy sector, focusing on providing essential yearly documentation for clients.
-          </p>
-          <p>
-              The primary goal of the Wayfinder designsystem was to streamline processes and strengthen our trust within the accountancy industry. One of the key challenges we addressed was the lack of consistency across the styles used in our product range, which impacted the user experience and trust.
-          </p>
-          <p>
-              To improve user confidence and create a more cohesive experience, we worked on consolidating these varied styles into a unified design system. The Wayfinder design system became the central solution, ensuring alignment across Visionplanner’s product portfolio. As part of this initiative, we also began transitioning towards a platform-as-a-service (PaaS) model to support our evolving product strategy.
-          </p>
-        </contentWrap>
-      </div>
-    </div>
-    <div class="o-wrapper">
-      <div
-        data-duration=".5s"
-        data-delay=".15s"
-        class="sticky content_text anim"
-      >
-        <contentWrap>
-          <PageTitle :level="3"
-            >Establishing Brand Consistency: Colors and Basics</PageTitle
-          >
-          <p>
-            Our journey began with a collaborative effort between our team and
-            the marketing department to establish a cohesive style guide. This
-            involved aligning the brand identity with the product's visual
-            elements to ensure consistency across applications, websites, and
-            customer interactions.
-          </p>
-          <p>
-            Ultimately, our aim was twofold: to instill trust among our users
-            and to demonstrate our commitment to incorporating their
-            perspectives into our design decisions.
-          </p>
-        </contentWrap>
-      </div>
-      <div
-        data-duration=".5s"
-        data-delay=".3s"
-        class="content_image-small vijftigprocent anim"
-      >
-        <figure class="figure_39-9">
-          <img
-            class="shadow-2xl"
-            src="/portfolio/visma/Styleguide-ColorsBasics.png"
-            alt="Wayfinder style guide: colors and basics"
-            loading="lazy"
-            decoding="async"
-          />
+      </article>
+
+      <article class="case-step anim" data-duration=".5s" data-delay=".15s">
+        <div class="case-step_head">
+          <span class="case-step_num">02</span>
+          <contentWrap>
+            <PageTitle :level="3">Make spacing and type a system, not a choice per screen</PageTitle>
+            <p>
+              Achieving consistent spacing was a priority, and to accomplish this, we implemented a systematic approach.
+            </p>
+            <p>
+              We defined styles and semantic variables for each font and context in which it was used, giving designers clear guidelines. Using the same fonts across marketing and product kept graphic design and product interfaces aligned.
+            </p>
+          </contentWrap>
+        </div>
+        <div class="case-screens case-screens-2">
+          <figure><img class="shadow-2xl" src="/portfolio/visma/Styleguide-GridsSpacing.png" alt="Wayfinder style guide: grids and spacing" loading="lazy" decoding="async" /></figure>
+          <figure class="case-screens-scroll" tabindex="0" aria-label="Typography style guide, scroll to see all"><img src="/portfolio/visma/Styleguide-Typography.png" alt="Wayfinder style guide: typography" loading="lazy" decoding="async" /></figure>
+        </div>
+      </article>
+
+      <article class="case-step anim" data-duration=".5s" data-delay=".15s">
+        <div class="case-step_head">
+          <span class="case-step_num">03</span>
+          <contentWrap>
+            <PageTitle :level="3">Adopt Material icons instead of drawing our own</PageTitle>
+            <p>
+              Product owners were primarily responsible for creating icons, so we first gave them a standardized example of icon creation.
+            </p>
+            <p>
+              As our design system matured, we integrated Material Design icons, since many of the icons we required were similar in nature.
+            </p>
+          </contentWrap>
+        </div>
+        <figure class="case-screens case-screens-1 case-screens-narrow case-screens-scroll" tabindex="0" aria-label="Iconography style guide, scroll to see all">
+          <img src="/portfolio/visma/Styleguide-Icons.png" alt="Wayfinder style guide: iconography" loading="lazy" decoding="async" />
         </figure>
-      </div>
-    </div>
-    <div class="o-wrapper">
-      <div class="content_image-small">
-        <figure class="figure_9dot3-9">
-          <img
-            class="shadow-2xl"
-            src="/portfolio/visma/Styleguide-GridsSpacing.png"
-            alt="Wayfinder style guide: grids and spacing"
-            loading="lazy"
-            decoding="async"
-          />
+      </article>
+
+      <article class="case-step anim" data-duration=".5s" data-delay=".15s">
+        <div class="case-step_head">
+          <span class="case-step_num">04</span>
+          <contentWrap>
+            <PageTitle :level="3">Structure the kit with atomic design</PageTitle>
+            <p>
+              Breaking the UI into atoms, molecules, organisms, templates and pages promotes modularity, reusability, and scalability, and lets designers and developers share standardized components across projects.
+            </p>
+          </contentWrap>
+        </div>
+        <figure class="case-screens case-screens-1">
+          <img src="/portfolio/visma/atomicelements.png" alt="Atomic design elements in Wayfinder" loading="lazy" decoding="async" />
         </figure>
-      </div>
-      <div class="content_text sticky">
+        <dl class="case-atoms">
+          <div><dt>Atoms</dt><dd>The smallest, indivisible elements such as buttons, input fields, labels and icons.</dd></div>
+          <div><dt>Molecules</dt><dd>Atoms working together as a single unit, like a search bar or a navigation menu.</dd></div>
+          <div><dt>Organisms</dt><dd>Groups of molecules forming a complex component, like a header or a sidebar.</dd></div>
+          <div><dt>Templates</dt><dd>The layout of a page or section: how organisms and molecules are arranged.</dd></div>
+          <div><dt>Pages</dt><dd>Templates filled with actual content: the final, fully functional UI.</dd></div>
+        </dl>
+      </article>
+    </section>
+
+    <!-- The result -->
+    <section class="case-block anim" data-duration=".5s" data-delay=".15s">
+      <div class="case-block_head">
+        <p class="case-label">The result</p>
         <contentWrap>
-          <PageTitle :level="3">Optimizing Layouts: Grids & Spacing</PageTitle>
+          <PageTitle :level="3">Wayfinder became the base for Visionplanner Compilation</PageTitle>
           <p>
-            Achieving consistent spacing was a priority, and to accomplish
-            this, we implemented a systematic approach.
+            With Wayfinder in place, we began developing Visionplanner Compilation, a new application that supports accountants in their daily tasks by integrating helpful information and automation into their routine processes.
+          </p>
+          <p>
+            Wayfinder evolved from a simple UI kit into a fully-fledged design system, with reusable patterns and accessibility guidelines, as Visionplanner moved towards a platform-as-a-service model.
+          </p>
+          <p>
+            The biggest result was trust. Users no longer wanted to talk to the UX designers who came before us. After we won that trust back by making the application look and feel the same everywhere, they let us into their business and talked with us about the future of the product.
           </p>
         </contentWrap>
       </div>
-    </div>
-    <div class="o-wrapper">
-      <div
-        data-duration=".5s"
-        data-delay=".15s"
-        class="sticky content_text anim"
-      >
-        <contentWrap>
-          <PageTitle :level="3"
-            >Crafting Consistent Typography with Figma Styles</PageTitle
-          >
-          <p>
-            We defined styles and semantic variables for each
-            font and context in which it was used. This provided designers
-            with clear guidelines for selecting the appropriate font and style
-            from our cohesive design system.
-          </p>
-          <p>
-            Furthermore, by utilizing the same fonts across both marketing and
-            product design endeavors, we ensured alignment between graphic
-            design elements and product interfaces.
-          </p>
-        </contentWrap>
+      <figure class="case-screens case-screens-1">
+        <img class="shadow-2xl" src="/portfolio/visma/VisionplannerCompilation.png" alt="Visionplanner Compilation application screens" loading="lazy" decoding="async" />
+      </figure>
+      <div class="case-figma">
+        <iframe
+          title="Wayfinder design system in Figma"
+          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FUShdGyxIhDfBsfs32gfZWA%2FWayfinder---Design-System%3Ftype%3Ddesign%26node-id%3D1%253A3%26mode%3Ddesign%26t%3DTUOxn20FhJwJnUlD-1"
+          allowfullscreen
+        ></iframe>
       </div>
-      <div
-        data-duration=".5s"
-        data-delay=".3s"
-        class="content_image-small vijftigprocent anim"
-      >
-        <figure class="figure_26-9">
-          <img
-            class="shadow-2xl"
-            src="/portfolio/visma/Styleguide-Typography.png"
-            alt="Wayfinder style guide: typography"
-            loading="lazy"
-            decoding="async"
-          />
-        </figure>
-      </div>
-    </div>
-    <div class="o-wrapper">
-      <div class="content_image-small">
-        <figure class="figure_73-9">
-          <img
-            class="shadow-2xl"
-            src="/portfolio/visma/Styleguide-Icons.png"
-            alt="Wayfinder style guide: iconography"
-            loading="lazy"
-            decoding="async"
-          />
-        </figure>
-      </div>
-      <div class="content_text sticky">
-        <contentWrap>
-          <PageTitle :level="3">Streamlining Iconography</PageTitle>
-          <p>
-            Upon joining the company as product designers, we observed that
-            product owners were primarily responsible for creating icons.
-            Recognizing an opportunity to enhance their workflow and promote
-            best practices, we provided them with a standardized example of
-            icon creation.
-          </p>
-          <p>
-            As our design system matured, we opted to integrate Material
-            Design icons into our designsystem. This decision stemmed from the
-            realization that many of the icons we required were similar in
-            nature.
-          </p>
-        </contentWrap>
-      </div>
-    </div>
-    <div
-      data-duration=".5s"
-      data-delay=".3s"
-      class="detail_title spacer anim"
-    >
-      <PageTitle :level="1">Atomic design</PageTitle>
-    </div>
-    <div class="big-img-wrapper">
-      <div
-        data-duration=".5s"
-        data-delay=".3s"
-        class="content_image vijftigprocent anim"
-      >
-        <figure class="figure_9-16">
-          <img
-            src="/portfolio/visma/atomicelements.png"
-            alt="Atomic design elements in Wayfinder"
-            loading="lazy"
-            decoding="async"
-          />
-        </figure>
-      </div>
-    </div>
-    <div class="o-wrapper" style="align-items: start">
-      <div class="content_text">
-        <contentWrap>
-          <p style="font-weight: 700">Atoms</p>
-          <p>
-            Atoms are the basic building blocks of UI design. These are the
-            smallest, indivisible elements such as buttons, input fields,
-            labels, icons, etc.
-          </p>
-
-          <p style="font-weight: 700">Molecules</p>
-          <p>
-            Molecules are combinations of atoms that work together as a single
-            unit. For example, a search bar (composed of an input field and a
-            button) or a navigation menu (composed of menu items).
-          </p>
-
-          <p style="font-weight: 700">Organisms</p>
-          <p>
-            Organisms are groups of molecules functioning together to form a
-            more complex component that serves a specific purpose within a UI.
-            Examples include a header (composed of a logo, navigation, and
-            search bar) or a sidebar (composed of various widgets).
-          </p>
-        </contentWrap>
-      </div>
-      <div class="content_text">
-        <contentWrap>
-          <p style="font-weight: 700">Templates</p>
-          <p>
-            Templates represent the layout or structure of a page or section
-            of a UI. They define the arrangement and composition of organisms
-            and molecules within a specific context.
-          </p>
-
-          <p style="font-weight: 700">Pages</p>
-          <p>
-            Pages are instances of templates filled with actual content. They
-            represent the final stage where all the components are combined to
-            create a fully functional UI.
-          </p>
-
-          <p>
-            By breaking down UI design into these smaller, more manageable
-            components, atomic design promotes modularity, reusability, and
-            scalability. It also facilitates collaboration among designers and
-            developers since components are standardized and can be easily
-            shared and reused across projects. Additionally, it encourages
-            consistency and maintainability by enforcing a structured approach
-            to UI design.
-          </p>
-        </contentWrap>
-      </div>
-    </div>
-
-
-  <div
-      data-duration=".5s"
-      data-delay=".3s"
-      class="detail_title spacer anim"
-    >
-      <PageTitle :level="1">Visionplanner Compilation</PageTitle>
-
-    </div>
-
-    <div class="o-wrapper">
-      <div
-        data-duration=".5s"
-        data-delay=".3s"
-        class="content_image-small vijftigprocent anim"
-      >
-        <figure class="figure_12-14">
-          <img
-            class="shadow-2xl"
-            src="/portfolio/visma/VisionplannerCompilation.png"
-            alt="Visionplanner Compilation application screens"
-            loading="lazy"
-            decoding="async"
-          />
-        </figure>
-      </div>
-      <div data-duration=".5s" data-delay=".15s" class="content_text anim">
-        <contentWrap>
-          <PageTitle :level="3">Visionplanner Compilation</PageTitle>
-          <p>
-              With a clearly defined UI kit in place, called Wayfinder, we began developing Visionplanner Compilation a new application designed to support accountants in their daily tasks. The application streamlines workflows by integrating helpful information and automation into their routine processes.
-          </p>
-          <p>
-              During this time, we also focused on evolving Wayfinder from a simple UI kit into a fully-fledged design system. This involved defining reusable patterns and incorporating accessibility guidelines to ensure a more robust and inclusive design framework.
-          </p>
-
-        </contentWrap>
-      </div>
-    </div>
-
+    </section>
   </SectionDetail>
 </template>
+
+<style lang="scss">
+.case-label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f69c2a;
+  margin-bottom: 0.75rem;
+}
+.case-label-center { text-align: center; }
+.case-block,
+.case-steps {
+  width: 100%;
+  max-width: 1280px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.case-block_head,
+.case-step_head {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: start;
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+  .c-wrap { max-width: 640px; }
+  .c-wrap p { max-width: 640px; }
+  .c-wrap h3 { max-width: 640px; }
+}
+.case-block_head { grid-template-columns: 1fr; }
+.case-block_head .c-wrap h3 { font-size: 1.6rem; }
+.case-steps { gap: 5rem; }
+.case-step {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.case-step_num {
+  font-family: "Bitter", serif;
+  font-size: 3rem;
+  line-height: 1;
+  color: #f69c2a;
+}
+.case-step_head .c-wrap h3 { font-size: 1.6rem; }
+.case-screens {
+  margin: 0;
+  img { width: 100%; height: auto; display: block; }
+}
+.case-screens-scroll {
+  max-height: 720px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  img { width: 100%; height: auto; display: block; }
+}
+.case-block > .case-screens-1 { max-width: 960px; }
+.case-screens-narrow { max-width: 640px; margin-left: calc(33.333% + 0.7rem); @media (max-width: 600px) { margin-left: 0; } }
+.case-screens-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+}
+.case-atoms {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.5rem;
+  @media (max-width: 600px) { grid-template-columns: 1fr; }
+  dt { font-family: "Bitter", serif; font-weight: 700; margin-bottom: 0.25rem; }
+  dd { font-family: "Open Sans", sans-serif; font-size: 0.9rem; line-height: 1.6; color: #333333; }
+}
+.case-figma iframe {
+  width: 100%;
+  height: 71vh;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+</style>
