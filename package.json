@@ -4,14 +4,17 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "nuxt": "^4.2.1",
     "postcss": "^8.4.20",
-    "sass": "^1.54.5",
-    "tailwindcss": "^3.2.4"
+    "sass": "^1.108",
+    "tailwindcss": "^3.2.4",
+    "typescript": "5",
+    "vue-tsc": "^3.3.14"
   },
   "dependencies": {
     "caniuse-lite": "^1.0.30001687"
