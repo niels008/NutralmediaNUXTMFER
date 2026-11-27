@@ -1,27 +1,27 @@
-<script setup>
+<script setup lang="ts">
 import projectsData from "@/data/projects.json";
+import type { CaseName } from "~/utils/caseOrder";
 
-defineProps({
-  project: {
-    type: String,
-    default: "",
-  },
-});
+const props = defineProps<{
+  project: CaseName;
+}>();
+
+const entry = computed(() => projectsData[props.project]);
 </script>
 
 <template>
   <section data-duration=".5s" data-delay=".15s" class="product anim">
     <NuxtLink :to="`/${project}`">
       <div class="product_detail">
-        <h2>{{ projectsData[project].title }}</h2>
+        <h2>{{ entry.title }}</h2>
         <p class="product_detail_text">
-          {{ projectsData[project].description }}
+          {{ entry.description }}
         </p>
       </div>
     </NuxtLink>
     <img
       class="bgproject"
-      :src="projectsData[project].image.url"
+      :src="entry.image.url"
       alt=""
       aria-hidden="true"
       loading="lazy"

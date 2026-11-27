@@ -1,23 +1,18 @@
-<script setup>
+<script setup lang="ts">
 // The end of a case: the next three cases in Home's order (wrapping round
 // at the end of the list) and a link back to all cases. Renders nothing on
 // pages that are not in the list (My process, Daily UI).
-const props = defineProps({
-  count: { type: Number, default: 3 },
+const props = withDefaults(defineProps<{ count?: number }>(), {
+  count: 3,
 });
 
 const route = useRoute();
 const nextCases = computed(() => {
-  const current = route.path.replace(/^\//, "").split("/")[0];
-  const at = CASE_ORDER.findIndex(
-    (name) => name.toLowerCase() === current.toLowerCase(),
-  );
+  const current = route.path.replace(/^\//, "").split("/")[0]?.toLowerCase();
+  const at = CASE_ORDER.findIndex((name) => name.toLowerCase() === current);
   if (at === -1) return [];
-  const others = CASE_ORDER.length - 1;
-  return Array.from(
-    { length: Math.min(props.count, others) },
-    (_, i) => CASE_ORDER[(at + 1 + i) % CASE_ORDER.length],
-  );
+  const rotated = [...CASE_ORDER.slice(at + 1), ...CASE_ORDER.slice(0, at)];
+  return rotated.slice(0, props.count);
 });
 </script>
 
