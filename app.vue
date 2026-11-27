@@ -24,7 +24,7 @@ useHead({
 </template>
 
 <style lang="scss">
-@import "./assets/sass/main.scss";
+@use "./assets/sass/main.scss";
 
 @tailwind base;
 @tailwind components;
