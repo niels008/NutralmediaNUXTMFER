@@ -11,14 +11,6 @@ export function useScrollReveal() {
 
   onMounted(() => {
     const elements = document.querySelectorAll(".anim");
-    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-    if (reducedMotion) {
-      elements.forEach((element) => {
-        element.style.opacity = "1";
-      });
-      return;
-    }
 
     observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {

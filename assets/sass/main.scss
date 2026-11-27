@@ -1,10 +1,10 @@
 //
 // global-vars & base styling + fonts
 //
-@import "globalsvars";
-@import "./menu";
-@import "./colors";
-@import "./case";
+@use "sass:color";
+@use "globalsvars" as *;
+@use "menu";
+@use "case";
 //
 // anim
 //
@@ -20,14 +20,6 @@
 }
 .anim {
   opacity: 0;
-}
-// Without JavaScript or with reduced motion requested, the content must stay
-// visible instead of being stuck at opacity 0.
-@media (prefers-reduced-motion: reduce) {
-  .anim {
-    opacity: 1;
-    animation: none !important;
-  }
 }
 //
 // main scss
@@ -1038,7 +1030,7 @@ section.detail {
   border-radius: 50%;
   font-size: 2rem;
   &:hover {
-    background-color: darken($secundary-color, 10%);
+    background-color: color.adjust($secundary-color, $lightness: -10%);
   }
   svg {
     width: 20px;
