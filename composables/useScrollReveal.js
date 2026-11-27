@@ -1,4 +1,4 @@
-import { onBeforeUnmount, onMounted } from "vue";
+import { nextTick, onBeforeUnmount, onMounted } from "vue";
 
 const DEFAULT_DURATION = ".5s";
 const DEFAULT_DELAY = "0s";
@@ -9,8 +9,8 @@ const DEFAULT_DELAY = "0s";
 export function useScrollReveal() {
   let observer = null;
 
-  onMounted(() => {
-    const elements = document.querySelectorAll(".anim");
+  const observeAnimated = () => {
+    observer?.disconnect();
 
     observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -23,10 +23,23 @@ export function useScrollReveal() {
       });
     });
 
-    elements.forEach((element) => observer.observe(element));
-  });
+    document
+      .querySelectorAll(".anim")
+      .forEach((element) => observer.observe(element));
+  };
+
+  onMounted(observeAnimated);
+
+  // The projects layout stays mounted when one case links to the next, so
+  // the elements of the page that just arrived have to be picked up again.
+  // page:finish fires once that page is rendered; a route watcher plus
+  // nextTick is too early, the incoming page component is still loading.
+  const stopHook = useNuxtApp().hook("page:finish", () =>
+    nextTick(observeAnimated),
+  );
 
   onBeforeUnmount(() => {
+    stopHook();
     observer?.disconnect();
     observer = null;
   });
